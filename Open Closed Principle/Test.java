@@ -1,3 +1,9 @@
+/*The Open/Closed Principle (OCP) states that a class should 
+be open for extension but closed for modification.
+This means that the behavior of a class should be extendable without 
+modifying its source code*/
+
+
 import java.util.ArrayList;
 import java.util.List;
 
