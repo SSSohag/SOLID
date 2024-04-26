@@ -56,25 +56,6 @@ class BookPrinter {
     }
 }
 
-// The BookManager class is responsible for managing a collection of books
-class BookManager {
-    private List<Book> books = new ArrayList<>();
-
-    // Method to add a book to the collection
-    public void addBook(Book book) {
-        books.add(book);
-    }
-
-    // Method to remove a book from the collection
-    public void removeBook(Book book) {
-        books.remove(book);
-    }
-
-    // Method to get all the books in the collection
-    public List<Book> getAllBooks() {
-        return books;
-    }
-}
 
 public class Main {
     public static void main(String[] args) {
